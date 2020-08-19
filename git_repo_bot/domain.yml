@@ -1,0 +1,108 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- ask_again
+- bot_challenge
+- bridgelabz
+- info_cic
+- syllabus_cic
+- reg_cic
+- job_cic
+- fee_cic
+- fellowship_program
+- reg_fellowship
+- technology_fellowship
+- confusing_Ques_syllabus
+- confusing_Ques_registration
+responses:
+  utter_fee_cic:
+  - text: Please attend orientation session, where we can brief you on same.
+  utter_goodbye:
+  - text: Thanks for visit!!! Bye...Have a great Day!
+  utter_greet:
+  - text: Hey i am Chitti! How can i assist you?
+  utter_affirm:
+  - text: thats great!!! you want to ask anything else?
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_again:
+  - text: please continue...!
+  utter_bridgelabz:
+  - text: BridgeLabz is an AWS recognised incubator and is solely focussed on solving
+      tech employability. Over the last 4 years, it has worked with 300+ top tech
+      companies and 1500+ engineers have been hired from Bridgelabz. It has labs in
+      Mumbai and Bangalore. It has partnered with over 300 companies, including Yatra,
+      Capgemini, Meru Cabs, LafargeHolcim, JDA, UrbanLadder, Fullerton India and RBL
+      bank.
+  utter_info_cic:
+  - text: CodinClub is a 30 day completely online coding Bootcamp designed by Bridgelabz,
+      India's 1st and only 100% experiential lab which guarantees tech jobs with top
+      tech companies.
+  utter_job_cic:
+  - text: Yes! you have to be eligible for the CodinClub Completion certificate we
+      offer unlimited interviews with top tech companies with a starting salary of
+      3 lacs per annum.In addition, top performers will also get Codin Club Star Certificate
+      and be eligible for a 12 weeks fellowship program through BridgeLabz and will
+      have 100% job guarantee of getting placed with a starting salary from Rs. 4
+      lacs up to Rs. 8 lacs p.a.
+  utter_reg_cic:
+  - text: You are required to register for CodinClub and attend our online orientation.After
+      that, BridgeLabz will offer you Linux Terminal Commands Workshop of 7 days.
+      After attending the workshop candidate can decide if he/she wants to be part
+      of CodinClub. If you haven’t registered for CodinClub, please register here.
+  utter_syllabus_cic:
+  - text: Over the 30 days, you will learn shell scripting ,terminal commands,Programming
+      Constructs,Data Structures,Strings and Patterns, Object-Oriented Programming,
+      Web Development- this will give you strong fundamentals when it comes to coding
+      jobs.
+  utter_fellowship_program:
+  - text: BridgeLabz conducts a 12-week program for top performers in the CodinClub
+      Bootcamp. The candidates who successfully complete this program have a 100%
+      job guarantee to be hired by top product companies (without interviews) with
+      jobs with starting salaries going upto Rs.8 lacs p.a.
+  utter_reg_fellowship:
+  - text: Top-performing candidates of codinclub will be certified -” CodinClub Stars”
+      and will be eligible for the 12-week Fellowship program which guarantees you
+      100% job with top product companies with starting salaries from Rs.4 lacs p.a
+      upto Rs. 8 lacs p.a.
+  utter_technology_fellowship:
+  - text: Essentially the Tech Stack we work on are Android iOS,on Machine Learning,on
+      Data Science, on Native Web Apps, on Angular and React Backend Servers, on Java
+      Spring Hibernate and MEAN stack. All development is done on Linux Environment
+      and for iOS in Mac Machine. We use Heroku and AWS Cloud.
+  utter_confusing_Ques_syllabus:
+  - buttons:
+    - payload: /technology_fellowship
+      title: 1) Fellowship Program
+    - payload: /syllabus_cic
+      title: 2) CodeinClub
+    text: Which Training Program Syllabus you talking about ?
+  utter_confusing_Ques_registration:
+  - buttons:
+    - payload: /reg_fellowship
+      title: 1) Fellowship Program
+    - payload: /reg_cic
+      title: 2) CodeinClub
+    text: Which Training Program Registration you talking about ?
+actions:
+- utter_greet
+- utter_goodbye
+- utter_iamabot
+- utter_affirm
+- utter_again
+- utter_bridgelabz
+- utter_info_cic
+- utter_syllabus_cic
+- utter_reg_cic
+- utter_job_cic
+- utter_fee_cic
+- utter_fellowship_program
+- utter_reg_fellowship
+- utter_technology_fellowship
+- utter_confusing_Ques_syllabus
+- utter_confusing_Ques_registration

@@ -1,0 +1,10 @@
+[
+  {
+    "text": "what is syllabus you going to be covered in codinclub?",
+    "intent": "syllabus_cic",
+    "intent_prediction": {
+      "name": "confusing_Ques_syllabus",
+      "confidence": 0.25746339559555054
+    }
+  }
+]
