@@ -1,0 +1,1910 @@
+[
+  {
+    "sender_id": "me",
+    "slots": {},
+    "latest_message": {
+      "intent": {},
+      "entities": [],
+      "text": null,
+      "message_id": null,
+      "metadata": {}
+    },
+    "latest_event_time": null,
+    "followup_action": "action_listen",
+    "paused": false,
+    "events": [],
+    "latest_input_channel": null,
+    "active_form": {},
+    "latest_action_name": null
+  },
+  {
+    "sender_id": "me",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "greet",
+        "confidence": 0.992159903049469
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "greet",
+          "confidence": 0.992159903049469
+        },
+        {
+          "name": "fellowship_program",
+          "confidence": 0.0033667385578155518
+        },
+        {
+          "name": "goodbye",
+          "confidence": 0.001331325271166861
+        },
+        {
+          "name": "job_cic",
+          "confidence": 0.0012035105610266328
+        },
+        {
+          "name": "deny",
+          "confidence": 0.000711808621417731
+        },
+        {
+          "name": "syllabus_cic",
+          "confidence": 0.0005518392426893115
+        },
+        {
+          "name": "fee_cic",
+          "confidence": 0.00029223697492852807
+        },
+        {
+          "name": "ask_again",
+          "confidence": 0.0001776500721462071
+        },
+        {
+          "name": "bridgelabz",
+          "confidence": 0.00011590091162361205
+        },
+        {
+          "name": "bot_challenge",
+          "confidence": 8.909733151085675e-05
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "hi"
+    },
+    "latest_event_time": 1598439458.793546,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598439457.5070782,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598439457.5070946
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439457.5071228,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439457.8761277,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.992159903049469
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.992159903049469
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0033667385578155518
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.001331325271166861
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.0012035105610266328
+            },
+            {
+              "name": "deny",
+              "confidence": 0.000711808621417731
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.0005518392426893115
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00029223697492852807
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0001776500721462071
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.00011590091162361205
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 8.909733151085675e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "987a3fd28a0c44f1bf0da04036e2f055",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.7650049,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439458.7650137,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.793546,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "me",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "bridgelabz",
+        "confidence": 0.9449946880340576
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "bridgelabz",
+          "confidence": 0.9449946880340576
+        },
+        {
+          "name": "ask_again",
+          "confidence": 0.01713375188410282
+        },
+        {
+          "name": "fee_cic",
+          "confidence": 0.010713794268667698
+        },
+        {
+          "name": "fellowship_program",
+          "confidence": 0.006618759594857693
+        },
+        {
+          "name": "confusing_Ques_syllabus",
+          "confidence": 0.006311450153589249
+        },
+        {
+          "name": "reg_fellowship",
+          "confidence": 0.003664196003228426
+        },
+        {
+          "name": "confusing_Ques_registration",
+          "confidence": 0.0032449744176119566
+        },
+        {
+          "name": "affirm",
+          "confidence": 0.0028552603907883167
+        },
+        {
+          "name": "info_cic",
+          "confidence": 0.002433800371363759
+        },
+        {
+          "name": "greet",
+          "confidence": 0.0020293386187404394
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "what is bridgelabz?"
+    },
+    "latest_event_time": 1598439475.3816602,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598439457.5070782,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598439457.5070946
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439457.5071228,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439457.8761277,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.992159903049469
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.992159903049469
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0033667385578155518
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.001331325271166861
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.0012035105610266328
+            },
+            {
+              "name": "deny",
+              "confidence": 0.000711808621417731
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.0005518392426893115
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00029223697492852807
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0001776500721462071
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.00011590091162361205
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 8.909733151085675e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "987a3fd28a0c44f1bf0da04036e2f055",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.7650049,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439458.7650137,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.793546,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439475.3328967,
+        "text": "what is bridgelabz?",
+        "parse_data": {
+          "intent": {
+            "name": "bridgelabz",
+            "confidence": 0.9449946880340576
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "bridgelabz",
+              "confidence": 0.9449946880340576
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.01713375188410282
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.010713794268667698
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.006618759594857693
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.006311450153589249
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.003664196003228426
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.0032449744176119566
+            },
+            {
+              "name": "affirm",
+              "confidence": 0.0028552603907883167
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.002433800371363759
+            },
+            {
+              "name": "greet",
+              "confidence": 0.0020293386187404394
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "what is bridgelabz?"
+        },
+        "input_channel": "rest",
+        "message_id": "b08170fa63184c538d2de15369db8be2",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439475.3563747,
+        "name": "utter_bridgelabz",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9879636764526367
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439475.3563843,
+        "text": "BridgeLabz is an AWS recognised incubator and is solely focussed on solving tech employability. Over the last 4 years, it has worked with 300+ top tech companies and 1500+ engineers have been hired from Bridgelabz. It has labs in Mumbai and Bangalore. It has partnered with over 300 companies, including Yatra, Capgemini, Meru Cabs, LafargeHolcim, JDA, UrbanLadder, Fullerton India and RBL bank.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439475.3816602,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999126195907593
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "me",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "info_cic",
+        "confidence": 0.9101819396018982
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "info_cic",
+          "confidence": 0.9101819396018982
+        },
+        {
+          "name": "syllabus_cic",
+          "confidence": 0.02355574630200863
+        },
+        {
+          "name": "affirm",
+          "confidence": 0.01697489805519581
+        },
+        {
+          "name": "deny",
+          "confidence": 0.014051724225282669
+        },
+        {
+          "name": "fellowship_program",
+          "confidence": 0.012601718306541443
+        },
+        {
+          "name": "greet",
+          "confidence": 0.007434676866978407
+        },
+        {
+          "name": "fee_cic",
+          "confidence": 0.005385166499763727
+        },
+        {
+          "name": "bot_challenge",
+          "confidence": 0.0048820264637470245
+        },
+        {
+          "name": "technology_fellowship",
+          "confidence": 0.0031851709354668856
+        },
+        {
+          "name": "ask_again",
+          "confidence": 0.0017469567246735096
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "what is codinclub?"
+    },
+    "latest_event_time": 1598439488.4337995,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598439457.5070782,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598439457.5070946
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439457.5071228,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439457.8761277,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.992159903049469
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.992159903049469
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0033667385578155518
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.001331325271166861
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.0012035105610266328
+            },
+            {
+              "name": "deny",
+              "confidence": 0.000711808621417731
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.0005518392426893115
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00029223697492852807
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0001776500721462071
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.00011590091162361205
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 8.909733151085675e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "987a3fd28a0c44f1bf0da04036e2f055",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.7650049,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439458.7650137,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.793546,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439475.3328967,
+        "text": "what is bridgelabz?",
+        "parse_data": {
+          "intent": {
+            "name": "bridgelabz",
+            "confidence": 0.9449946880340576
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "bridgelabz",
+              "confidence": 0.9449946880340576
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.01713375188410282
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.010713794268667698
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.006618759594857693
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.006311450153589249
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.003664196003228426
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.0032449744176119566
+            },
+            {
+              "name": "affirm",
+              "confidence": 0.0028552603907883167
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.002433800371363759
+            },
+            {
+              "name": "greet",
+              "confidence": 0.0020293386187404394
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "what is bridgelabz?"
+        },
+        "input_channel": "rest",
+        "message_id": "b08170fa63184c538d2de15369db8be2",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439475.3563747,
+        "name": "utter_bridgelabz",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9879636764526367
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439475.3563843,
+        "text": "BridgeLabz is an AWS recognised incubator and is solely focussed on solving tech employability. Over the last 4 years, it has worked with 300+ top tech companies and 1500+ engineers have been hired from Bridgelabz. It has labs in Mumbai and Bangalore. It has partnered with over 300 companies, including Yatra, Capgemini, Meru Cabs, LafargeHolcim, JDA, UrbanLadder, Fullerton India and RBL bank.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439475.3816602,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999126195907593
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439488.3764155,
+        "text": "what is codinclub?",
+        "parse_data": {
+          "intent": {
+            "name": "info_cic",
+            "confidence": 0.9101819396018982
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "info_cic",
+              "confidence": 0.9101819396018982
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.02355574630200863
+            },
+            {
+              "name": "affirm",
+              "confidence": 0.01697489805519581
+            },
+            {
+              "name": "deny",
+              "confidence": 0.014051724225282669
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.012601718306541443
+            },
+            {
+              "name": "greet",
+              "confidence": 0.007434676866978407
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.005385166499763727
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.0048820264637470245
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.0031851709354668856
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0017469567246735096
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "what is codinclub?"
+        },
+        "input_channel": "rest",
+        "message_id": "cc9b6ce0111f4d8ab02a6640cdfe5d6c",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439488.4043376,
+        "name": "utter_info_cic",
+        "policy": "policy_1_TEDPolicy",
+        "confidence": 0.9748079776763916
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439488.4043453,
+        "text": "CodinClub is a 30 day completely online coding Bootcamp designed by Bridgelabz, India's 1st and only 100% experiential lab which guarantees tech jobs with top tech companies.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439488.4337995,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999872446060181
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "me",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "affirm",
+        "confidence": 0.8967244625091553
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "affirm",
+          "confidence": 0.8967244625091553
+        },
+        {
+          "name": "info_cic",
+          "confidence": 0.06234173849225044
+        },
+        {
+          "name": "deny",
+          "confidence": 0.010801815427839756
+        },
+        {
+          "name": "confusing_Ques_syllabus",
+          "confidence": 0.009614496491849422
+        },
+        {
+          "name": "syllabus_cic",
+          "confidence": 0.009071355685591698
+        },
+        {
+          "name": "bot_challenge",
+          "confidence": 0.0028589305002242327
+        },
+        {
+          "name": "greet",
+          "confidence": 0.0024632574059069157
+        },
+        {
+          "name": "fee_cic",
+          "confidence": 0.00241319602355361
+        },
+        {
+          "name": "reg_fellowship",
+          "confidence": 0.0019833131227642298
+        },
+        {
+          "name": "technology_fellowship",
+          "confidence": 0.001727405353449285
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "thanks"
+    },
+    "latest_event_time": 1598439494.4364877,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598439457.5070782,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598439457.5070946
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439457.5071228,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439457.8761277,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.992159903049469
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.992159903049469
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0033667385578155518
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.001331325271166861
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.0012035105610266328
+            },
+            {
+              "name": "deny",
+              "confidence": 0.000711808621417731
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.0005518392426893115
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00029223697492852807
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0001776500721462071
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.00011590091162361205
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 8.909733151085675e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "987a3fd28a0c44f1bf0da04036e2f055",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.7650049,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439458.7650137,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.793546,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439475.3328967,
+        "text": "what is bridgelabz?",
+        "parse_data": {
+          "intent": {
+            "name": "bridgelabz",
+            "confidence": 0.9449946880340576
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "bridgelabz",
+              "confidence": 0.9449946880340576
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.01713375188410282
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.010713794268667698
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.006618759594857693
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.006311450153589249
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.003664196003228426
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.0032449744176119566
+            },
+            {
+              "name": "affirm",
+              "confidence": 0.0028552603907883167
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.002433800371363759
+            },
+            {
+              "name": "greet",
+              "confidence": 0.0020293386187404394
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "what is bridgelabz?"
+        },
+        "input_channel": "rest",
+        "message_id": "b08170fa63184c538d2de15369db8be2",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439475.3563747,
+        "name": "utter_bridgelabz",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9879636764526367
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439475.3563843,
+        "text": "BridgeLabz is an AWS recognised incubator and is solely focussed on solving tech employability. Over the last 4 years, it has worked with 300+ top tech companies and 1500+ engineers have been hired from Bridgelabz. It has labs in Mumbai and Bangalore. It has partnered with over 300 companies, including Yatra, Capgemini, Meru Cabs, LafargeHolcim, JDA, UrbanLadder, Fullerton India and RBL bank.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439475.3816602,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999126195907593
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439488.3764155,
+        "text": "what is codinclub?",
+        "parse_data": {
+          "intent": {
+            "name": "info_cic",
+            "confidence": 0.9101819396018982
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "info_cic",
+              "confidence": 0.9101819396018982
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.02355574630200863
+            },
+            {
+              "name": "affirm",
+              "confidence": 0.01697489805519581
+            },
+            {
+              "name": "deny",
+              "confidence": 0.014051724225282669
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.012601718306541443
+            },
+            {
+              "name": "greet",
+              "confidence": 0.007434676866978407
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.005385166499763727
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.0048820264637470245
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.0031851709354668856
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0017469567246735096
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "what is codinclub?"
+        },
+        "input_channel": "rest",
+        "message_id": "cc9b6ce0111f4d8ab02a6640cdfe5d6c",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439488.4043376,
+        "name": "utter_info_cic",
+        "policy": "policy_1_TEDPolicy",
+        "confidence": 0.9748079776763916
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439488.4043453,
+        "text": "CodinClub is a 30 day completely online coding Bootcamp designed by Bridgelabz, India's 1st and only 100% experiential lab which guarantees tech jobs with top tech companies.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439488.4337995,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999872446060181
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439494.3663394,
+        "text": "thanks",
+        "parse_data": {
+          "intent": {
+            "name": "affirm",
+            "confidence": 0.8967244625091553
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "affirm",
+              "confidence": 0.8967244625091553
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.06234173849225044
+            },
+            {
+              "name": "deny",
+              "confidence": 0.010801815427839756
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.009614496491849422
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.009071355685591698
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.0028589305002242327
+            },
+            {
+              "name": "greet",
+              "confidence": 0.0024632574059069157
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00241319602355361
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.0019833131227642298
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.001727405353449285
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "thanks"
+        },
+        "input_channel": "rest",
+        "message_id": "94804476f94d4f6abe73d2c6920a4caa",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439494.4051096,
+        "name": "utter_affirm",
+        "policy": "policy_1_TEDPolicy",
+        "confidence": 0.9877853393554688
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439494.405129,
+        "text": "thats great!!! you want to ask anything else?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439494.4364877,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999475479125977
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "me",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "goodbye",
+        "confidence": 0.6388758420944214
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "goodbye",
+          "confidence": 0.6388758420944214
+        },
+        {
+          "name": "deny",
+          "confidence": 0.31468743085861206
+        },
+        {
+          "name": "job_cic",
+          "confidence": 0.031044473871588707
+        },
+        {
+          "name": "confusing_Ques_registration",
+          "confidence": 0.004177385475486517
+        },
+        {
+          "name": "greet",
+          "confidence": 0.002455429406836629
+        },
+        {
+          "name": "reg_cic",
+          "confidence": 0.002330517629161477
+        },
+        {
+          "name": "technology_fellowship",
+          "confidence": 0.001928832265548408
+        },
+        {
+          "name": "fellowship_program",
+          "confidence": 0.0019154890906065702
+        },
+        {
+          "name": "ask_again",
+          "confidence": 0.0012942387256771326
+        },
+        {
+          "name": "bot_challenge",
+          "confidence": 0.001290351152420044
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "no bye"
+    },
+    "latest_event_time": 1598439500.2504535,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598439457.5070782,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598439457.5070946
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439457.5071228,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439457.8761277,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.992159903049469
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.992159903049469
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0033667385578155518
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.001331325271166861
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.0012035105610266328
+            },
+            {
+              "name": "deny",
+              "confidence": 0.000711808621417731
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.0005518392426893115
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00029223697492852807
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0001776500721462071
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.00011590091162361205
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 8.909733151085675e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "987a3fd28a0c44f1bf0da04036e2f055",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.7650049,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439458.7650137,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439458.793546,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439475.3328967,
+        "text": "what is bridgelabz?",
+        "parse_data": {
+          "intent": {
+            "name": "bridgelabz",
+            "confidence": 0.9449946880340576
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "bridgelabz",
+              "confidence": 0.9449946880340576
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.01713375188410282
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.010713794268667698
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.006618759594857693
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.006311450153589249
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.003664196003228426
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.0032449744176119566
+            },
+            {
+              "name": "affirm",
+              "confidence": 0.0028552603907883167
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.002433800371363759
+            },
+            {
+              "name": "greet",
+              "confidence": 0.0020293386187404394
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "what is bridgelabz?"
+        },
+        "input_channel": "rest",
+        "message_id": "b08170fa63184c538d2de15369db8be2",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439475.3563747,
+        "name": "utter_bridgelabz",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9879636764526367
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439475.3563843,
+        "text": "BridgeLabz is an AWS recognised incubator and is solely focussed on solving tech employability. Over the last 4 years, it has worked with 300+ top tech companies and 1500+ engineers have been hired from Bridgelabz. It has labs in Mumbai and Bangalore. It has partnered with over 300 companies, including Yatra, Capgemini, Meru Cabs, LafargeHolcim, JDA, UrbanLadder, Fullerton India and RBL bank.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439475.3816602,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999126195907593
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439488.3764155,
+        "text": "what is codinclub?",
+        "parse_data": {
+          "intent": {
+            "name": "info_cic",
+            "confidence": 0.9101819396018982
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "info_cic",
+              "confidence": 0.9101819396018982
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.02355574630200863
+            },
+            {
+              "name": "affirm",
+              "confidence": 0.01697489805519581
+            },
+            {
+              "name": "deny",
+              "confidence": 0.014051724225282669
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.012601718306541443
+            },
+            {
+              "name": "greet",
+              "confidence": 0.007434676866978407
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.005385166499763727
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.0048820264637470245
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.0031851709354668856
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0017469567246735096
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "what is codinclub?"
+        },
+        "input_channel": "rest",
+        "message_id": "cc9b6ce0111f4d8ab02a6640cdfe5d6c",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439488.4043376,
+        "name": "utter_info_cic",
+        "policy": "policy_1_TEDPolicy",
+        "confidence": 0.9748079776763916
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439488.4043453,
+        "text": "CodinClub is a 30 day completely online coding Bootcamp designed by Bridgelabz, India's 1st and only 100% experiential lab which guarantees tech jobs with top tech companies.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439488.4337995,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999872446060181
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439494.3663394,
+        "text": "thanks",
+        "parse_data": {
+          "intent": {
+            "name": "affirm",
+            "confidence": 0.8967244625091553
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "affirm",
+              "confidence": 0.8967244625091553
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.06234173849225044
+            },
+            {
+              "name": "deny",
+              "confidence": 0.010801815427839756
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.009614496491849422
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.009071355685591698
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.0028589305002242327
+            },
+            {
+              "name": "greet",
+              "confidence": 0.0024632574059069157
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00241319602355361
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.0019833131227642298
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.001727405353449285
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "thanks"
+        },
+        "input_channel": "rest",
+        "message_id": "94804476f94d4f6abe73d2c6920a4caa",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439494.4051096,
+        "name": "utter_affirm",
+        "policy": "policy_1_TEDPolicy",
+        "confidence": 0.9877853393554688
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439494.405129,
+        "text": "thats great!!! you want to ask anything else?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439494.4364877,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999475479125977
+      },
+      {
+        "event": "user",
+        "timestamp": 1598439500.1452148,
+        "text": "no bye",
+        "parse_data": {
+          "intent": {
+            "name": "goodbye",
+            "confidence": 0.6388758420944214
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "goodbye",
+              "confidence": 0.6388758420944214
+            },
+            {
+              "name": "deny",
+              "confidence": 0.31468743085861206
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.031044473871588707
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.004177385475486517
+            },
+            {
+              "name": "greet",
+              "confidence": 0.002455429406836629
+            },
+            {
+              "name": "reg_cic",
+              "confidence": 0.002330517629161477
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.001928832265548408
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0019154890906065702
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0012942387256771326
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.001290351152420044
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "no bye"
+        },
+        "input_channel": "rest",
+        "message_id": "b8ec1ac087de4813b4828758ee7259f6",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439500.2197843,
+        "name": "utter_goodbye",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9920295476913452
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598439500.2197967,
+        "text": "Thanks for visit!!! Bye...Have a great Day!",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598439500.2504535,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999533891677856
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  }
+]

@@ -1,0 +1,1730 @@
+[
+  {
+    "sender_id": "default",
+    "slots": {},
+    "latest_message": {
+      "intent": {},
+      "entities": [],
+      "text": null,
+      "message_id": null,
+      "metadata": {}
+    },
+    "latest_event_time": null,
+    "followup_action": "action_listen",
+    "paused": false,
+    "events": [],
+    "latest_input_channel": null,
+    "active_form": {},
+    "latest_action_name": null
+  },
+  {
+    "sender_id": "default",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "greet",
+        "confidence": 0.9973903894424438
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "greet",
+          "confidence": 0.9973903894424438
+        },
+        {
+          "name": "fellowship_program",
+          "confidence": 0.0011139269918203354
+        },
+        {
+          "name": "job_cic",
+          "confidence": 0.00045174334081821144
+        },
+        {
+          "name": "goodbye",
+          "confidence": 0.00028737977845594287
+        },
+        {
+          "name": "deny",
+          "confidence": 0.00026428879937157035
+        },
+        {
+          "name": "syllabus_cic",
+          "confidence": 0.00022180001542437822
+        },
+        {
+          "name": "fee_cic",
+          "confidence": 0.00016586172569077462
+        },
+        {
+          "name": "ask_again",
+          "confidence": 3.6232726415619254e-05
+        },
+        {
+          "name": "bot_challenge",
+          "confidence": 3.5890916478820145e-05
+        },
+        {
+          "name": "bridgelabz",
+          "confidence": 3.247252243454568e-05
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "hey"
+    },
+    "latest_event_time": 1598603016.6679454,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598603015.5403593,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598603015.5403705
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603015.5403898,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603015.7761316,
+        "text": "hey",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.9973903894424438
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.9973903894424438
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0011139269918203354
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.00045174334081821144
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.00028737977845594287
+            },
+            {
+              "name": "deny",
+              "confidence": 0.00026428879937157035
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.00022180001542437822
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00016586172569077462
+            },
+            {
+              "name": "ask_again",
+              "confidence": 3.6232726415619254e-05
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 3.5890916478820145e-05
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 3.247252243454568e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hey"
+        },
+        "input_channel": "rest",
+        "message_id": "3df514b878f84d18a99838dd7b4e6afa",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603016.6395395,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603016.6395464,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603016.6679454,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "default",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "affirm",
+        "confidence": 0.8967244625091553
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "affirm",
+          "confidence": 0.8967244625091553
+        },
+        {
+          "name": "info_cic",
+          "confidence": 0.06234173849225044
+        },
+        {
+          "name": "deny",
+          "confidence": 0.010801815427839756
+        },
+        {
+          "name": "confusing_Ques_syllabus",
+          "confidence": 0.009614496491849422
+        },
+        {
+          "name": "syllabus_cic",
+          "confidence": 0.009071355685591698
+        },
+        {
+          "name": "bot_challenge",
+          "confidence": 0.0028589305002242327
+        },
+        {
+          "name": "greet",
+          "confidence": 0.0024632574059069157
+        },
+        {
+          "name": "fee_cic",
+          "confidence": 0.00241319602355361
+        },
+        {
+          "name": "reg_fellowship",
+          "confidence": 0.0019833131227642298
+        },
+        {
+          "name": "technology_fellowship",
+          "confidence": 0.001727405353449285
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "thanks"
+    },
+    "latest_event_time": 1598603031.8702223,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598603015.5403593,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598603015.5403705
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603015.5403898,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603015.7761316,
+        "text": "hey",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.9973903894424438
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.9973903894424438
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0011139269918203354
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.00045174334081821144
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.00028737977845594287
+            },
+            {
+              "name": "deny",
+              "confidence": 0.00026428879937157035
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.00022180001542437822
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00016586172569077462
+            },
+            {
+              "name": "ask_again",
+              "confidence": 3.6232726415619254e-05
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 3.5890916478820145e-05
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 3.247252243454568e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hey"
+        },
+        "input_channel": "rest",
+        "message_id": "3df514b878f84d18a99838dd7b4e6afa",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603016.6395395,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603016.6395464,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603016.6679454,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603031.8171303,
+        "text": "thanks",
+        "parse_data": {
+          "intent": {
+            "name": "affirm",
+            "confidence": 0.8967244625091553
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "affirm",
+              "confidence": 0.8967244625091553
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.06234173849225044
+            },
+            {
+              "name": "deny",
+              "confidence": 0.010801815427839756
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.009614496491849422
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.009071355685591698
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.0028589305002242327
+            },
+            {
+              "name": "greet",
+              "confidence": 0.0024632574059069157
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00241319602355361
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.0019833131227642298
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.001727405353449285
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "thanks"
+        },
+        "input_channel": "rest",
+        "message_id": "bbbc0e9da38c4199b736427be7450344",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603031.8422818,
+        "name": "utter_affirm",
+        "policy": "policy_1_TEDPolicy",
+        "confidence": 0.987440824508667
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603031.8422885,
+        "text": "thats great!!! you want to ask anything else?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603031.8702223,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999434947967529
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "default",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "goodbye",
+        "confidence": 0.6388758420944214
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "goodbye",
+          "confidence": 0.6388758420944214
+        },
+        {
+          "name": "deny",
+          "confidence": 0.31468743085861206
+        },
+        {
+          "name": "job_cic",
+          "confidence": 0.031044473871588707
+        },
+        {
+          "name": "confusing_Ques_registration",
+          "confidence": 0.004177385475486517
+        },
+        {
+          "name": "greet",
+          "confidence": 0.002455429406836629
+        },
+        {
+          "name": "reg_cic",
+          "confidence": 0.002330517629161477
+        },
+        {
+          "name": "technology_fellowship",
+          "confidence": 0.001928832265548408
+        },
+        {
+          "name": "fellowship_program",
+          "confidence": 0.0019154890906065702
+        },
+        {
+          "name": "ask_again",
+          "confidence": 0.0012942387256771326
+        },
+        {
+          "name": "bot_challenge",
+          "confidence": 0.001290351152420044
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "no bye"
+    },
+    "latest_event_time": 1598603044.1965005,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598603015.5403593,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598603015.5403705
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603015.5403898,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603015.7761316,
+        "text": "hey",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.9973903894424438
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.9973903894424438
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0011139269918203354
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.00045174334081821144
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.00028737977845594287
+            },
+            {
+              "name": "deny",
+              "confidence": 0.00026428879937157035
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.00022180001542437822
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00016586172569077462
+            },
+            {
+              "name": "ask_again",
+              "confidence": 3.6232726415619254e-05
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 3.5890916478820145e-05
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 3.247252243454568e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hey"
+        },
+        "input_channel": "rest",
+        "message_id": "3df514b878f84d18a99838dd7b4e6afa",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603016.6395395,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603016.6395464,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603016.6679454,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603031.8171303,
+        "text": "thanks",
+        "parse_data": {
+          "intent": {
+            "name": "affirm",
+            "confidence": 0.8967244625091553
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "affirm",
+              "confidence": 0.8967244625091553
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.06234173849225044
+            },
+            {
+              "name": "deny",
+              "confidence": 0.010801815427839756
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.009614496491849422
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.009071355685591698
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.0028589305002242327
+            },
+            {
+              "name": "greet",
+              "confidence": 0.0024632574059069157
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00241319602355361
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.0019833131227642298
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.001727405353449285
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "thanks"
+        },
+        "input_channel": "rest",
+        "message_id": "bbbc0e9da38c4199b736427be7450344",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603031.8422818,
+        "name": "utter_affirm",
+        "policy": "policy_1_TEDPolicy",
+        "confidence": 0.987440824508667
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603031.8422885,
+        "text": "thats great!!! you want to ask anything else?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603031.8702223,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999434947967529
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603044.136034,
+        "text": "no bye",
+        "parse_data": {
+          "intent": {
+            "name": "goodbye",
+            "confidence": 0.6388758420944214
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "goodbye",
+              "confidence": 0.6388758420944214
+            },
+            {
+              "name": "deny",
+              "confidence": 0.31468743085861206
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.031044473871588707
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.004177385475486517
+            },
+            {
+              "name": "greet",
+              "confidence": 0.002455429406836629
+            },
+            {
+              "name": "reg_cic",
+              "confidence": 0.002330517629161477
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.001928832265548408
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0019154890906065702
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0012942387256771326
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.001290351152420044
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "no bye"
+        },
+        "input_channel": "rest",
+        "message_id": "9795dcf63a434bfd833381d4259095b5",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603044.170771,
+        "name": "utter_goodbye",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9926325678825378
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603044.1707795,
+        "text": "Thanks for visit!!! Bye...Have a great Day!",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603044.1965005,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999536275863647
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "santoshi",
+    "slots": {},
+    "latest_message": {
+      "intent": {},
+      "entities": [],
+      "text": null,
+      "message_id": null,
+      "metadata": {}
+    },
+    "latest_event_time": null,
+    "followup_action": "action_listen",
+    "paused": false,
+    "events": [],
+    "latest_input_channel": null,
+    "active_form": {},
+    "latest_action_name": null
+  },
+  {
+    "sender_id": "santoshi",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "greet",
+        "confidence": 0.992159903049469
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "greet",
+          "confidence": 0.992159903049469
+        },
+        {
+          "name": "fellowship_program",
+          "confidence": 0.0033667385578155518
+        },
+        {
+          "name": "goodbye",
+          "confidence": 0.001331325271166861
+        },
+        {
+          "name": "job_cic",
+          "confidence": 0.0012035105610266328
+        },
+        {
+          "name": "deny",
+          "confidence": 0.000711808621417731
+        },
+        {
+          "name": "syllabus_cic",
+          "confidence": 0.0005518392426893115
+        },
+        {
+          "name": "fee_cic",
+          "confidence": 0.00029223697492852807
+        },
+        {
+          "name": "ask_again",
+          "confidence": 0.0001776500721462071
+        },
+        {
+          "name": "bridgelabz",
+          "confidence": 0.00011590091162361205
+        },
+        {
+          "name": "bot_challenge",
+          "confidence": 8.909733151085675e-05
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "hi"
+    },
+    "latest_event_time": 1598603283.1362107,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598603282.1583982,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598603282.1584108
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603282.158437,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603282.371331,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.992159903049469
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.992159903049469
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0033667385578155518
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.001331325271166861
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.0012035105610266328
+            },
+            {
+              "name": "deny",
+              "confidence": 0.000711808621417731
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.0005518392426893115
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00029223697492852807
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0001776500721462071
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.00011590091162361205
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 8.909733151085675e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "2e818dbebae54fd08338041e1a74dc0e",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603283.1070147,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603283.1070225,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603283.1362107,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "santoshi",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "bot_challenge",
+        "confidence": 0.7879852056503296
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "bot_challenge",
+          "confidence": 0.7879852056503296
+        },
+        {
+          "name": "fee_cic",
+          "confidence": 0.03459692373871803
+        },
+        {
+          "name": "info_cic",
+          "confidence": 0.030364416539669037
+        },
+        {
+          "name": "bridgelabz",
+          "confidence": 0.029442595317959785
+        },
+        {
+          "name": "goodbye",
+          "confidence": 0.02685333415865898
+        },
+        {
+          "name": "ask_again",
+          "confidence": 0.02138363942503929
+        },
+        {
+          "name": "confusing_Ques_registration",
+          "confidence": 0.02017221786081791
+        },
+        {
+          "name": "technology_fellowship",
+          "confidence": 0.017544422298669815
+        },
+        {
+          "name": "confusing_Ques_syllabus",
+          "confidence": 0.01673993468284607
+        },
+        {
+          "name": "job_cic",
+          "confidence": 0.01491727028042078
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "who are you ?"
+    },
+    "latest_event_time": 1598603298.4529216,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598603282.1583982,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598603282.1584108
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603282.158437,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603282.371331,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.992159903049469
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.992159903049469
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0033667385578155518
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.001331325271166861
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.0012035105610266328
+            },
+            {
+              "name": "deny",
+              "confidence": 0.000711808621417731
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.0005518392426893115
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00029223697492852807
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0001776500721462071
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.00011590091162361205
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 8.909733151085675e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "2e818dbebae54fd08338041e1a74dc0e",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603283.1070147,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603283.1070225,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603283.1362107,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603298.4017637,
+        "text": "who are you ?",
+        "parse_data": {
+          "intent": {
+            "name": "bot_challenge",
+            "confidence": 0.7879852056503296
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "bot_challenge",
+              "confidence": 0.7879852056503296
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.03459692373871803
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.030364416539669037
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.029442595317959785
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.02685333415865898
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.02138363942503929
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.02017221786081791
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.017544422298669815
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.01673993468284607
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.01491727028042078
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "who are you ?"
+        },
+        "input_channel": "rest",
+        "message_id": "552b445f52c74e2f803da9c079844234",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603298.4282818,
+        "name": "utter_iamabot",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9839600920677185
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603298.428297,
+        "text": "I am a bot, powered by Rasa.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603298.4529216,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999656677246094
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  },
+  {
+    "sender_id": "santoshi",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "goodbye",
+        "confidence": 0.9909464716911316
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "goodbye",
+          "confidence": 0.9909464716911316
+        },
+        {
+          "name": "job_cic",
+          "confidence": 0.004847529344260693
+        },
+        {
+          "name": "deny",
+          "confidence": 0.001110366196371615
+        },
+        {
+          "name": "confusing_Ques_registration",
+          "confidence": 0.0009587340755388141
+        },
+        {
+          "name": "reg_cic",
+          "confidence": 0.0007128396537154913
+        },
+        {
+          "name": "ask_again",
+          "confidence": 0.0005733181023970246
+        },
+        {
+          "name": "greet",
+          "confidence": 0.0004751799860969186
+        },
+        {
+          "name": "fellowship_program",
+          "confidence": 0.00022019329480826855
+        },
+        {
+          "name": "bridgelabz",
+          "confidence": 8.939434337662533e-05
+        },
+        {
+          "name": "reg_fellowship",
+          "confidence": 6.594714068342e-05
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "bye"
+    },
+    "latest_event_time": 1598603315.2293422,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598603282.1583982,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598603282.1584108
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603282.158437,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603282.371331,
+        "text": "hi",
+        "parse_data": {
+          "intent": {
+            "name": "greet",
+            "confidence": 0.992159903049469
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "greet",
+              "confidence": 0.992159903049469
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.0033667385578155518
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.001331325271166861
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.0012035105610266328
+            },
+            {
+              "name": "deny",
+              "confidence": 0.000711808621417731
+            },
+            {
+              "name": "syllabus_cic",
+              "confidence": 0.0005518392426893115
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.00029223697492852807
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0001776500721462071
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.00011590091162361205
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 8.909733151085675e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "hi"
+        },
+        "input_channel": "rest",
+        "message_id": "2e818dbebae54fd08338041e1a74dc0e",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603283.1070147,
+        "name": "utter_greet",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603283.1070225,
+        "text": "Hey i am Chitti! How can i assist you?",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603283.1362107,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603298.4017637,
+        "text": "who are you ?",
+        "parse_data": {
+          "intent": {
+            "name": "bot_challenge",
+            "confidence": 0.7879852056503296
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "bot_challenge",
+              "confidence": 0.7879852056503296
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.03459692373871803
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.030364416539669037
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.029442595317959785
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.02685333415865898
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.02138363942503929
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.02017221786081791
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.017544422298669815
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.01673993468284607
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.01491727028042078
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "who are you ?"
+        },
+        "input_channel": "rest",
+        "message_id": "552b445f52c74e2f803da9c079844234",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603298.4282818,
+        "name": "utter_iamabot",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9839600920677185
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603298.428297,
+        "text": "I am a bot, powered by Rasa.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603298.4529216,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999656677246094
+      },
+      {
+        "event": "user",
+        "timestamp": 1598603315.18082,
+        "text": "bye",
+        "parse_data": {
+          "intent": {
+            "name": "goodbye",
+            "confidence": 0.9909464716911316
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "goodbye",
+              "confidence": 0.9909464716911316
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.004847529344260693
+            },
+            {
+              "name": "deny",
+              "confidence": 0.001110366196371615
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.0009587340755388141
+            },
+            {
+              "name": "reg_cic",
+              "confidence": 0.0007128396537154913
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.0005733181023970246
+            },
+            {
+              "name": "greet",
+              "confidence": 0.0004751799860969186
+            },
+            {
+              "name": "fellowship_program",
+              "confidence": 0.00022019329480826855
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 8.939434337662533e-05
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 6.594714068342e-05
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "bye"
+        },
+        "input_channel": "rest",
+        "message_id": "1c1412762a854338bff28815873eae66",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603315.2055993,
+        "name": "utter_goodbye",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.991637647151947
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598603315.2056048,
+        "text": "Thanks for visit!!! Bye...Have a great Day!",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598603315.2293422,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999603033065796
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  }
+]

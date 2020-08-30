@@ -13,12 +13,18 @@
 - i wan't to know about codinclub.
 - what is codinclub?
 - may i know codinclub?
+- codinclub?
+- coding club?
 - what is 30 days bootcamp?
 - what is 21 days bootcamp?
 - what is 21 days online program?
 
 ## intent:syllabus_cic
 - what is syllabus for codinclub?
+- what is syllabus of codinclub?
+- codinclub syllabus?
+- codinclub topics?
+- codinclub content?
 - what is syllabus you going to be covered in codinclub? 
 - what is syllabus for 21 days bootcamp?
 - what is syllabus for 30 days bootcamp?
@@ -28,7 +34,7 @@
 
 ## intent:reg_cic
 - how to join codinclub?
-- how to registered codinclub?
+- how to register for codinclub?
 - how to enroll codinclub?
 - how to reg for 30 days bootcamp?
 - how to registered for 21 days bootcamp?
@@ -46,6 +52,8 @@
 - what is fee for 30 days bootcamp?
 - what is fee for 21 days bootcamp?
 - what is fee?
+- Is it paid?
+- Is there any fee for this 30 days training?
 - how much i need to pay
 - is it free or i have to pay
 - how much i have to pay
@@ -59,6 +67,7 @@
 
 ## intent:reg_fellowship
 - how can i register with fellowship?
+- how to register for fellowship?
 - how can i join fellowship program?
 - i want to join fellowship
 - give me link to join fellowship

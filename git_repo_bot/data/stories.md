@@ -22,29 +22,6 @@
 * bridgelabz
   - utter_bridgelabz
   
-## bot FP_detail_path1
-* bridgelabz
-  - utter_bridgelabz
-* fellowship_program
-  - utter_fellowship_program
-* technology_fellowship
-  - utter_technology_fellowship
-* reg_fellowship
-  - utter_reg_fellowship
-
-
-## bot CIC_detail_path1
-* bridgelabz
-  - utter_bridgelabz
-* info_cic
-  - utter_info_cic
-* syllabus_cic
-  - utter_syllabus_cic
-* fee_cic
-  - utter_fee_cic
-* reg_cic
-  - utter_reg_cic
-  
 ## bot challenge
 * bot_challenge
   - utter_iamabot

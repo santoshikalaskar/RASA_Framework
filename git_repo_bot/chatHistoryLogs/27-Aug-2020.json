@@ -1,0 +1,380 @@
+[
+  {
+    "sender_id": "me",
+    "slots": {},
+    "latest_message": {
+      "intent": {
+        "name": "bot_challenge",
+        "confidence": 0.5571683645248413
+      },
+      "entities": [],
+      "intent_ranking": [
+        {
+          "name": "bot_challenge",
+          "confidence": 0.5571683645248413
+        },
+        {
+          "name": "confusing_Ques_syllabus",
+          "confidence": 0.08018424361944199
+        },
+        {
+          "name": "info_cic",
+          "confidence": 0.07912406325340271
+        },
+        {
+          "name": "bridgelabz",
+          "confidence": 0.06791024655103683
+        },
+        {
+          "name": "affirm",
+          "confidence": 0.062114011496305466
+        },
+        {
+          "name": "fee_cic",
+          "confidence": 0.058569878339767456
+        },
+        {
+          "name": "confusing_Ques_registration",
+          "confidence": 0.031500644981861115
+        },
+        {
+          "name": "technology_fellowship",
+          "confidence": 0.027217715978622437
+        },
+        {
+          "name": "reg_fellowship",
+          "confidence": 0.020298589020967484
+        },
+        {
+          "name": "ask_again",
+          "confidence": 0.015912268310785294
+        }
+      ],
+      "response_selector": {
+        "default": {
+          "response": {
+            "name": null,
+            "confidence": 0.0
+          },
+          "ranking": [],
+          "full_retrieval_intent": null
+        }
+      },
+      "text": "who are u?"
+    },
+    "latest_event_time": 1598533051.3025324,
+    "followup_action": null,
+    "paused": false,
+    "events": [
+      {
+        "event": "action",
+        "timestamp": 1598532993.4361794,
+        "name": "action_session_start",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "session_started",
+        "timestamp": 1598532993.4361885
+      },
+      {
+        "event": "action",
+        "timestamp": 1598532993.4362133,
+        "name": "action_listen",
+        "policy": null,
+        "confidence": null
+      },
+      {
+        "event": "user",
+        "timestamp": 1598532993.642901,
+        "text": "how are u ?",
+        "parse_data": {
+          "intent": {
+            "name": "reg_fellowship",
+            "confidence": 0.2593567669391632
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.2593567669391632
+            },
+            {
+              "name": "reg_cic",
+              "confidence": 0.2536063492298126
+            },
+            {
+              "name": "bot_challenge",
+              "confidence": 0.1770753115415573
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.13068369030952454
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.054983749985694885
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.05361437052488327
+            },
+            {
+              "name": "job_cic",
+              "confidence": 0.02104862965643406
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.019882414489984512
+            },
+            {
+              "name": "goodbye",
+              "confidence": 0.01636720634996891
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.013381545431911945
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "how are u ?"
+        },
+        "input_channel": "rest",
+        "message_id": "3c69452df51744d8847e27c462ad4942",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598532994.374792,
+        "name": "utter_reg_fellowship",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598532994.3748024,
+        "text": "Top-performing candidates of codinclub will be certified -\u201d CodinClub Stars\u201d and will be eligible for the 12-week Fellowship program which guarantees you 100% job with top product companies with starting salaries from Rs.4 lacs p.a upto Rs. 8 lacs p.a.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598532994.4032063,
+        "name": "action_listen",
+        "policy": "policy_0_MemoizationPolicy",
+        "confidence": 1.0
+      },
+      {
+        "event": "user",
+        "timestamp": 1598533006.073961,
+        "text": "who are u ?",
+        "parse_data": {
+          "intent": {
+            "name": "bot_challenge",
+            "confidence": 0.5571683645248413
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "bot_challenge",
+              "confidence": 0.5571683645248413
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.08018424361944199
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.07912406325340271
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.06791024655103683
+            },
+            {
+              "name": "affirm",
+              "confidence": 0.062114011496305466
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.058569878339767456
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.031500644981861115
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.027217715978622437
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.020298589020967484
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.015912268310785294
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "who are u ?"
+        },
+        "input_channel": "rest",
+        "message_id": "5289bdd400a44c608528882c5d0156bc",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598533006.1005964,
+        "name": "utter_iamabot",
+        "policy": "policy_1_TEDPolicy",
+        "confidence": 0.9811919927597046
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598533006.100606,
+        "text": "I am a bot, powered by Rasa.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598533006.1241891,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999762773513794
+      },
+      {
+        "event": "user",
+        "timestamp": 1598533051.2537608,
+        "text": "who are u?",
+        "parse_data": {
+          "intent": {
+            "name": "bot_challenge",
+            "confidence": 0.5571683645248413
+          },
+          "entities": [],
+          "intent_ranking": [
+            {
+              "name": "bot_challenge",
+              "confidence": 0.5571683645248413
+            },
+            {
+              "name": "confusing_Ques_syllabus",
+              "confidence": 0.08018424361944199
+            },
+            {
+              "name": "info_cic",
+              "confidence": 0.07912406325340271
+            },
+            {
+              "name": "bridgelabz",
+              "confidence": 0.06791024655103683
+            },
+            {
+              "name": "affirm",
+              "confidence": 0.062114011496305466
+            },
+            {
+              "name": "fee_cic",
+              "confidence": 0.058569878339767456
+            },
+            {
+              "name": "confusing_Ques_registration",
+              "confidence": 0.031500644981861115
+            },
+            {
+              "name": "technology_fellowship",
+              "confidence": 0.027217715978622437
+            },
+            {
+              "name": "reg_fellowship",
+              "confidence": 0.020298589020967484
+            },
+            {
+              "name": "ask_again",
+              "confidence": 0.015912268310785294
+            }
+          ],
+          "response_selector": {
+            "default": {
+              "response": {
+                "name": null,
+                "confidence": 0.0
+              },
+              "ranking": [],
+              "full_retrieval_intent": null
+            }
+          },
+          "text": "who are u?"
+        },
+        "input_channel": "rest",
+        "message_id": "267ef329e0c042d2be6cb5128ff44b8a",
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598533051.279311,
+        "name": "utter_iamabot",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9839639067649841
+      },
+      {
+        "event": "bot",
+        "timestamp": 1598533051.2793186,
+        "text": "I am a bot, powered by Rasa.",
+        "data": {
+          "elements": null,
+          "quick_replies": null,
+          "buttons": null,
+          "attachment": null,
+          "image": null,
+          "custom": null
+        },
+        "metadata": {}
+      },
+      {
+        "event": "action",
+        "timestamp": 1598533051.3025324,
+        "name": "action_listen",
+        "policy": "policy_3_KerasPolicy",
+        "confidence": 0.9999738931655884
+      }
+    ],
+    "latest_input_channel": "rest",
+    "active_form": {},
+    "latest_action_name": "action_listen"
+  }
+]
